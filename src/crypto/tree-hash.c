@@ -4,6 +4,8 @@
 
 #ifndef __OpenBSD__
 #include <alloca.h>
+#else
+#include <stdlib.h>
 #endif
 #include <assert.h>
 #include <stddef.h>
