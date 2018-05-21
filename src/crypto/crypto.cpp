@@ -2,7 +2,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifdef __OpenBSD__
+#ifndef __OpenBSD__
 #include <alloca.h>
 #else
 #include <stdlib.h>
